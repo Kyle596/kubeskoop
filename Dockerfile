@@ -1,5 +1,5 @@
 FROM docker.io/library/golang:1.19.4-alpine AS build
-# --build-arg GOPROXY=https://goproxy.cn,direct
+# --build-arg GOPROXY=https://goproxy.cn,directe
 ARG GOPROXY
 # --build-arg ALPINE_MIRROR=mirrors.aliyun.com
 ARG ALPINE_MIRROR
